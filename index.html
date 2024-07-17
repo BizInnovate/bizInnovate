@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BizInnovate</title>
-    <link rel="icon" href="images/logoBiz.jpeg" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/colors.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites For All</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <script src="scripts/index.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="/images/logoBiz.jpeg" rel="icon"/>
     <!-- fontawesome -->
     <link
       rel="stylesheet"
@@ -33,306 +33,140 @@
     />
   </head>
   <body>
-    <!-- NAVBAR -->
-    <nav id="navbar" class="navbar navbar-expand-sm">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="images/logoBiz.jpeg" alt="logo detail" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbar-main"
-        >
-          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-main">
-          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#testimonials">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
+    <div class="navbar">
+      <a href="/">Home</a>
+      <a href="#about-us">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#our-mission">Our Mission</a>
+      <a href="#our-team">Team</a>
+      <a href="#contact-us">Contact Us</a>
+  </div>
+  <button id="myBtn"> 
+      <a href="#top" style="color: white">🠉</a> 
+  </button>
+  <div class="frontpage b1">
+      <div class="frontpage-items-container">
+          <h1 data-aos="fade" data-aos-duration="1000">Bridging the Digital Divide with BiziNovate Accelerator</h1>
+          <h2 data-aos="fade" data-aos-duration="1500">Empowering Communities Through Technology Education</h2>
+          <a href="#about-us"><p data-aos="fade" data-aos-duration="2000">Learn More</p></a>
       </div>
-    </nav>
+  </div>
+  <section class="frontpage b2" id="about-us">
+      <div class="aboutus-items-container">
+          <h2 data-aos="fade" data-aos-duration="1000">About Us</h2>
+          <p data-aos="fade" data-aos-duration="1500">
+            BiziNovate is dedicated to empowering females, youth, and small businesses from disadvantaged communities through AI, technology education, IT solutions, and business support.<br><br>
+            Our key goals include:<br>
+            Bridging the digital divide by providing technology and AI education,
+            Offering IT solutions and career opportunities,
+            Fostering community involvement and support for educational initiatives,
+            Emphasizing our commitment to social impact, especially in undeserved populations, particularly women and youth.
+          </p data-aos="fade" data-aos-duration="1500">
+      </div>
+  </section>
+  <section class="frontpage b3" id="services">
+      <div class="aboutus-items-container">
+          <h2 data-aos="fade" data-aos-duration="1000">Services</h2>
+          <h4>Our Approach
+          </h4>
+          <p data-aos="fade" data-aos-duration="1500">
+            We host tech awareness events, raise
+            awareness and provide education on
+            the transformation power of
+            technology, with a focus on reaching
+            undeserved populations.
+          </p data-aos="fade" data-aos-duration="1500">
+      </div>
+      <div class="aboutus-items-container">
+        <h4>Key Focus
+        </h4>
+        <p data-aos="fade" data-aos-duration="1500">
+          Bridging the digital divide and
+        empowering women and youth from
+        disadvantaged communities.
 
-    <!-- CAROUSEL IMAGES -->
-    <section class="banner">
-      <div class="owl-carousel owl-theme carousel-sliders">
-        <div class="item" style="background-image: url(images/slide1.jpg)">
-          <div class="overlay-bg cover-full"></div>
-          <div class="container">
-            <div class="caption">
-              <h1 class="caption-heading">The perfect place for your family</h1>
-              <a href="#" class="btn btn-secondary">View more</a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="background-image: url(images/slide2.jpg)">
-          <div class="overlay-bg cover-full"></div>
-          <div class="container">
-            <div class="caption">
-              <h1 class="caption-heading">The perfect place for your family</h1>
-              <a href="#" class="btn btn-secondary">View more</a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="background-image: url(images/slide3.jpg)">
-          <div class="overlay-bg cover-full"></div>
-          <div class="container">
-            <div class="caption">
-              <h1 class="caption-heading">The perfect place for your family</h1>
-              <a href="#" class="btn btn-secondary">View more</a>
-            </div>
-          </div>
-        </div>
+        </p data-aos="fade" data-aos-duration="1500">
+    </div>
+  </section>
+  <section class="frontpage b4" id="our-mission">
+    <div class="column-container">
+      <div class="aboutus-items-container">
+        <h2 data-aos="fade" data-aos-duration="1000">Our Mission</h2>
+        <p data-aos="fade" data-aos-duration="1500">
+          Empowering Females, youth and small business
+          through comprehensive technology education and
+          ITservices.
+        </p>
       </div>
-      <div class="custom-nav owl-nav"></div>
-    </section>
-
-    <!-- WELCOME CONTENT -->
-    <section id="about" class="about">
-      <div class="container pt-5 pb-5">
-        <h1 class="section-title">About Us</h1>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="about-content">
-              <p>
-                BizInnovate Accelerator is dedicated to helping small and
-                medium-sized businesses adopt AI technologies.
-              </p>
-              <img
-                class="w-100 p-3"
-                src="images/about.jpg"
-                alt="School about"
-              />
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="about-content">
-              <ul>
-                <li>
-                  <i class="fas fa-trophy"></i>
-                  <h4>Our Mission</h4>
-                  <p>
-                    Our mission is to empower businesses through AI and bridge
-                    the unemployment gap by equipping young females from
-                    disadvantaged backgrounds with essential technical skills.
-                    <br />
-                    We focus on creating opportunities for underrepresented
-                    groups to ensure a more inclusive tech landscape.
-                  </p>
-                </li>
-                <li>
-                  <i class="fas fa-bullhorn"></i>
-                  <h4>Values</h4>
-                  <p>
-                    Passionate dedication to social impact, equality,
-                    andinclusivity.
-                  </p>
-                </li>
-                <li>
-                  <i class="fas fa-user-shield"></i>
-                  <h4>Our Approach</h4>
-                  <p>
-                    We host tech awareness events, raise awareness and provide
-                    education on the transformation power of technology, with a
-                    focus on reaching undeserved populations.
-                  </p>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
+      <div class="aboutus-items-container">
+        <h2 data-aos="fade" data-aos-duration="1000">Values</h2>
+        <p data-aos="fade" data-aos-duration="1500">
+          Passionate dedication to social impact, equality,
+          and inclusivity.
+        </p>
       </div>
-    </section>
-
-    <!-- SERVICES -->
-    <section id="services" class="services">
-      <div class="row">
-        <h1 class="section-title">Services</h1>
-        <div class="col-md-4 box-image">
-          <div
-            class="image cover-full transition"
-            style="background-image: url('images/service1.jpg')"
-          ></div>
-          <div class="shadow cover-full transition"></div>
-          <div class="desc center">
-            <h4>Digital Literacy</h4>
-            <a href="#" class="btn-secondary">View more</a>
-          </div>
-        </div>
-        <div class="col-md-4 box-image">
-          <div
-            class="image cover-full transition"
-            style="background-image: url('images/service2.jpg')"
-          ></div>
-          <div class="shadow cover-full transition"></div>
-          <div class="desc center">
-            <h4>ICT & Designing</h4>
-            <a href="#" class="btn-secondary">View more</a>
-          </div>
-        </div>
-        <div class="col-md-4 box-image">
-          <div
-            class="image cover-full transition"
-            style="background-image: url('images/service3.jpg')"
-          ></div>
-          <div class="shadow cover-full transition"></div>
-          <div class="desc center">
-            <h4>Automation</h4>
-            <a href="#" class="btn-secondary">View more</a>
-          </div>
-        </div>
+      <div class="aboutus-items-container">
+        <h2 data-aos="fade" data-aos-duration="1000">Our Vision</h2>
+        <h3>Vision Statement:</h3>
+        <p data-aos="fade" data-aos-duration="1500">
+          Creating a world where everyone has equal
+          access to and proficiency in technology.
+        </p>
       </div>
-    </section>
-
-    <!-- PROJECTS -->
-    <section id="projects" class="projects">
-      <div class="container pt-5 pb-5">
-        <h1 class="section-title">Projects</h1>
-        <div class="row">
-          <div class="col-md-4 col-6">
-            <div class="box-image">
-              <div
-                class="image cover-full transition"
-                style="background-image: url('images/pro1.jpg')"
-              ></div>
-              <div class="shadow cover-full transition"></div>
-              <div class="desc center">
-                <h4>Project 1</h4>
-                <a href="#">View more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-6">
-            <div class="box-image">
-              <div
-                class="image cover-full transition"
-                style="background-image: url('images/pro2.jpg')"
-              ></div>
-              <div class="shadow cover-full transition"></div>
-              <div class="desc center">
-                <h4>Project 2</h4>
-                <a href="#">View more</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-6">
-            <div class="box-image">
-              <div
-                class="image cover-full transition"
-                style="background-image: url('images/pro3.jpg')"
-              ></div>
-              <div class="shadow cover-full transition"></div>
-              <div class="desc center">
-                <h4>Project 3</h4>
-                <a href="#">View more</a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="aboutus-items-container">
+        <h3>Key Goals:</h3>
+        <p data-aos="fade" data-aos-duration="1500">
+          Personal growth, economic advancement,
+          and social inclusion for all.
+          We want to be the best known tech academy
+          in South Africa
+        </p>
       </div>
-    </section>
-
-    <!-- Teams -->
-    <section id="teamMembers" class="teamMembers">
-      <div class="container pt-5 pb-5">
-        <h1 class="section-title">Team Members</h1>
-        <div class="row">
-          <div class="col-md-4 col-6">
-            <div class="box-image">
-              <div
-                class="image cover-full transition"
-                style="background-image: url('images/cat-1.jpg')"
-              ></div>
-              <div class="shadow cover-full transition"></div>
-              <div class="desc center">
-                <h4>Amanda Gxagxa</h4>
-                <h5>CEO</h5>
-                <a href="#">Portfolio</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-6">
-            <div class="box-image">
-              <div
-                class="image cover-full transition"
-                style="background-image: url('images/cat-2.jpg')"
-              ></div>
-              <div class="shadow cover-full transition"></div>
-              <div class="desc center">
-                <h4>Lungisa</h4>
-                <h5>CTO</h5>
-                <a href="#">Portfolio</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-6">
-            <div class="box-image">
-              <div
-                class="image cover-full transition"
-                style="background-image: url('images/instructor-1.jpg')"
-              ></div>
-              <div class="shadow cover-full transition"></div>
-              <div class="desc center">
-                <h4>Anathi Beni</h4>
-                <h5>Chief of Staff </h5>
-                <a href="#">Portfolio</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-6">
-            <div class="box-image">
-              <div
-                class="image cover-full transition"
-                style="background-image: url('images/instructor-1.jpg')"
-              ></div>
-              <div class="shadow cover-full transition"></div>
-              <div class="desc center">
-                <h4>Yonela Futho</h4>
-                <h5>Chief financial officer</h5>
-                <a href="#">Portfolio</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 col-6">
-            <div class="box-image">
-              <div
-                class="image cover-full transition"
-                style="background-image: url('images/instructor-1.jpg')"
-              ></div>
-              <div class="shadow cover-full transition"></div>
-              <div class="desc center">
-                <h4>Team Member 5</h4>
-                <a href="#">Portfolio</a>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="aboutus-items-container">
+        <h3>Financial Goal:</h3>
+        <p data-aos="fade" data-aos-duration="1500">
+          Invest 30% of funds into technology
+          infrastructure and resources for community
+          centers in undeserved areas.
+        </p>
       </div>
-    </section>
-   
+    </div>
+  </section>
+  <!--Team-->
+  <section class="frontpage b5" id="our-team">
+    <div class="column-container">
+      <div class="aboutus-items-container">
+        <h2 data-aos="fade" data-aos-duration="1000">Our Team</h2>
+        <p data-aos="fade" data-aos-duration="1500">
+          Meet the dedicated individuals driving our mission forward.
+        </p>
+      </div>
+      <div class="aboutus-items-container">
+        <h3>Leadership</h3>
+        <p data-aos="fade" data-aos-duration="1500">
+          Our leadership team brings decades of experience in technology
+          education and community empowerment.
+        </p>
+      </div>
+      <div class="aboutus-items-container">
+        <h3>Meet Our Experts</h3>
+        <p data-aos="fade" data-aos-duration="1500">
+          A diverse team of specialists committed to creating a positive impact
+          through technology education and innovation.
+        </p>
+      </div>
+    </div>
+  </section>
+  
+  
     <!-- CONTACT -->
     <section id="contact" class="contact">
       <div class="container pt-5 pb-5">
         <div class="row">
           <div class="col-md-12">
             <div class="contact-desc">
-              <h1 class="mb-5">Ready to start your project?</h1>
+              <h1>Contact Us</h1>
+              <h2 class="mb-5">Ready to start your project?</h2>
               <p>
                 We're prepared to turn your real estate dreams into a reality.
                 Are you ready to begin your project with us? Let's collaborate
@@ -385,63 +219,13 @@
     </section>
 
     <!-- FOOTER -->
-    <footer class="footer footer1">
-      <div class="container pt-5 pb-5">
-        <div class="row">
-          <div class="col-md-6 mb-5">
-            <img class="foot-logo" src="images/logo.png" alt="Logo" />
-          </div>
-
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-4 foot-col mb-2">
-                <h4>About</h4>
-                <p>
-                  Kannur <br />
-                  Kerala<br />
-                  Phone : 9497698743
-                </p>
-              </div>
-              <div class="col-md-4 foot-col mb-2">
-                <h4>Contacts</h4>
-                <p><a href="#">Blog & Articles</a></p>
-                <p><a href="#">Terms and Conditions</a></p>
-                <p><a href="#">Privacy Policy</a></p>
-                <p><a href="#contact">Contact</a></p>
-              </div>
-              <div class="col-md-4 foot-col mb-2">
-                <h4>Navigation</h4>
-                <p><a href="#about">About</a></p>
-                <p><a href="#services">Services</a></p>
-                <p><a href="#projects">Projects</a></p>
-                <p><a href="#testimonials">Testimonials</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <footer class="footer footer2">
-      <div class="container pt-3 pb-2">
-        <div class="row">
-          <div class="col-md-8 foot-bottom-text">
-            <p>EJR &copy ALL OF THE RIGHTS RESERVED</p>
-          </div>
-          <div class="col-md-4 social-links content-right">
-            <a href="#" class="fb">
-              <i class="fab fa-facebook-f"></i>
-            </a>
-            <a href="#" class="tw">
-              <i class="fab fa-twitter"></i>
-            </a>
-            <a href="#" class="ig">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-    </footer>
-
+    
+    <div class="footer">
+      <p>Copyright © 2024 Sites For All. All rights reserved.</p>
+  </div>
+  <script>
+      AOS.init();
+  </script>
     <!-- JAVASCRIPT -->
     <!-- jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
