@@ -92,8 +92,8 @@ html, body {
 .frontpage h1, h2, p, a {
     padding: 0;
     margin: 0;
-    color: white;
-    text-shadow: 1px 1px 10px black;
+    color: black;
+    text-shadow: 1px 1px 10px white;
 }
 
 .frontpage-items-container {
@@ -114,37 +114,69 @@ html, body {
 }
 
 .b2 {
-    background-color: #5D5D5B;
+    background-color: #141E14;
     background-image: none;
+    
 }
 .b3 {
     background-color: #454A45;
     background-image: none;
 }
 .b4 {
-    background-color: #323632;
+    background-color: #141E14;
     background-image: none;
 }
 .column-container {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .frontpage.b5 {
     background-color: #f9f9f9; 
     padding: 50px 0; 
+    text-align: center;
+  }
+  .frontpage.b5 h1{
+    font-size: 2rem;
+    margin-bottom: 30px;
   }
   
   .frontpage.b5 .column-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
+    gap: 20px;
+    
+  }
+  .frontpage.b5 .team-member{
+    background-color: #fff;
+    padding: 20px;
+    max-width: 250px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+   .frontpage.b5 .team-member img{
+    max-width: 100%;
+  border-radius: 25%;
+  margin-bottom: 15px;
+
+   }
+   .frontpage.b5 .team-member h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
   }
   
+  .frontpage.b5 .team-member p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
   .frontpage.b5 .aboutus-items-container {
     flex: 1 1 300px; 
     margin: 0 10px; 
     text-align: center; 
+
   }
   
 
